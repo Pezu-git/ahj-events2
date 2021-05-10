@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/n4hwh3i61432jnei?svg=true)](https://ci.appveyor.com/project/Pezu-git/ahj-events)
