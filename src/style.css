@@ -9,7 +9,6 @@ body {
   min-width: 768px;
   max-width: 1300px;
   height: 600px;
-  max-width: 1300px;
   padding: 15px 10px;
   display: flex;
   flex-wrap: wrap;
@@ -23,7 +22,6 @@ body {
   height: calc(25% - 20px);
   padding: 30px 20px;
   border: 5px solid yellowgreen;
-  margin-bottom: 20px;
   background-color: blueviolet;
   position: relative; 
 }
@@ -44,5 +42,7 @@ body {
   display: none
 }
 .active {
-  display: block
+  cursor: url(./img/hammer.png), auto;
+  display: block;
+  /* cursor: url(https://img2.freepng.ru/20180710/ufz/kisspng-hammer-tool-symbol-computer-icons-chisel-hammer-icon-5b4459f0a53450.2546281215312061286767.jpg) */
 }

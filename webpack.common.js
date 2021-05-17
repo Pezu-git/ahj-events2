@@ -1,4 +1,5 @@
 /* eslint-disable linebreak-style */
+/* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable no-undef */
 /* eslint-disable camelcase */
 /* eslint-disable linebreak-style */
@@ -42,9 +43,15 @@ module.exports = {
       },
       {
         test: /\.(jpg|png|gif|svg)$/,
-        use: [{
-          loader: 'file-loader',
-        }],
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 8192,
+              name: 'assets/[hash].[ext]',
+            },
+          },
+        ],
       },
     ],
   },
